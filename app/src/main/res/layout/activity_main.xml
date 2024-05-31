@@ -66,7 +66,7 @@
             android:layout_height="wrap_content"
             android:layout_toRightOf="@+id/button4"
             android:layout_alignTop="@+id/button4"
-            android:text="5"
+            android:text="5"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -118,15 +118,15 @@
             android:text="Clear"/>
         <Button
             android:id="@+id/buttonSuma"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
             android:layout_alignTop="@id/button6"
             android:layout_toRightOf="@id/button6"
             android:text="+"/>
         <Button
             android:id="@+id/buttonResta"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
             android:layout_alignTop="@id/button9"
             android:layout_toRightOf="@id/button9"
             android:text="-"/>
@@ -139,15 +139,15 @@
             android:text="="/>
         <Button
             android:id="@+id/buttonDivision"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
             android:layout_alignTop="@id/buttonSuma"
             android:layout_toRightOf="@id/buttonSuma"
-            android:text="/"/>
+            android:text="\/"/>
         <Button
             android:id="@+id/buttonMulti"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
             android:layout_alignTop="@id/buttonResta"
             android:layout_toRightOf="@id/buttonResta"
             android:padding="20px"
